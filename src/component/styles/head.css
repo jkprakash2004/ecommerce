@@ -1,0 +1,41 @@
+.head{
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgba(102, 51, 153, 0.507);
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.head .container{
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    
+}
+.head .container .int-box{
+    width: 450px;
+    display: flex;
+    height: 40px;    
+    align-items: center;    
+    overflow: hidden;
+    border-radius: 30px;
+}
+.head .container .int-box input{
+    width: 90%;
+    height: 100%;
+    padding: 2px 5px;    
+}
+.head .container .int-box .ser{    
+    width: 10%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    background-color: #fff;
+}
+
